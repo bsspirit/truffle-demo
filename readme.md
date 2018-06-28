@@ -1,6 +1,9 @@
 Truffle以太坊Dapp开发框架
 ============================
 
+文章地址： <http://blog.fens.me/bitcoin-eth-truffle/>
+
+
 ![](http://blog.fens.me/wp-content/uploads/2018/06/truffle.png)
 
 ## 前言
@@ -18,5 +21,21 @@ Truffle以太坊Dapp开发框架
 + 自定义的智能合约
 + 交互的控制台
 + 启动合约服务
+
+## 下载和运行
+
+```
+git clone https://github.com/bsspirit/truffle-demo.git
+cd truffle-demo
+
+npm install -g truffle
+npm install -g ethereumjs-testrpc
+
+testrpc
+truffle compile
+truffle migrate
+truffle test
+truffle serve
+```
 
 文章地址： <http://blog.fens.me/bitcoin-eth-truffle/>
